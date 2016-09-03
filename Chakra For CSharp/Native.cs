@@ -1,4 +1,5 @@
-﻿namespace ChakraHost.Hosting
+﻿#pragma warning disable 0618
+namespace ChakraHost.Hosting
 {
     using System;
     using System.Diagnostics.CodeAnalysis;
@@ -166,7 +167,7 @@
 
         [DllImport(DllName)]
         public static extern JavaScriptErrorCode JsGetRuntime(JavaScriptContext context, out JavaScriptRuntime runtime);
-        
+
         [DllImport(DllName)]
         public static extern JavaScriptErrorCode JsStartDebugging();
 
@@ -379,7 +380,7 @@
 
         [DllImport(DllName)]
         public static extern JavaScriptErrorCode JsInspectableToObject([MarshalAs(UnmanagedType.IInspectable)] System.Object inspectable, out JavaScriptValue value);
-        
+
         [DllImport(DllName)]
         public static extern JavaScriptErrorCode JsSetProjectionEnqueueCallback(JavaScriptProjectionEnqueueCallback projectionEnqueueCallback, IntPtr context);
 

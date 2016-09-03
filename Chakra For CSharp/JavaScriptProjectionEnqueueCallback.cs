@@ -1,4 +1,5 @@
-﻿namespace ChakraHost.Hosting
+﻿#pragma warning disable 0169
+namespace ChakraHost.Hosting
 {
     using System;
 
