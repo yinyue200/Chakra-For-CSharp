@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chakra For CSharp", "Chakra For CSharp\Chakra For CSharp.csproj", "{7D25849F-EA77-4028-A301-3D0C87F47861}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGet.ChakraForCSharp", "NuGet.ChakraForCSharp\NuGet.ChakraForCSharp.csproj", "{0451BAEF-DF2E-4B98-8644-94EE9415E389}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D25849F-EA77-4028-A301-3D0C87F47861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D25849F-EA77-4028-A301-3D0C87F47861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D25849F-EA77-4028-A301-3D0C87F47861}.Debug|ARM.ActiveCfg = Debug|ARM
+		{7D25849F-EA77-4028-A301-3D0C87F47861}.Debug|ARM.Build.0 = Debug|ARM
+		{7D25849F-EA77-4028-A301-3D0C87F47861}.Debug|x64.ActiveCfg = Debug|x64
+		{7D25849F-EA77-4028-A301-3D0C87F47861}.Debug|x64.Build.0 = Debug|x64
+		{7D25849F-EA77-4028-A301-3D0C87F47861}.Debug|x86.ActiveCfg = Debug|x86
+		{7D25849F-EA77-4028-A301-3D0C87F47861}.Debug|x86.Build.0 = Debug|x86
+		{7D25849F-EA77-4028-A301-3D0C87F47861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D25849F-EA77-4028-A301-3D0C87F47861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D25849F-EA77-4028-A301-3D0C87F47861}.Release|ARM.ActiveCfg = Release|ARM
+		{7D25849F-EA77-4028-A301-3D0C87F47861}.Release|ARM.Build.0 = Release|ARM
+		{7D25849F-EA77-4028-A301-3D0C87F47861}.Release|x64.ActiveCfg = Release|x64
+		{7D25849F-EA77-4028-A301-3D0C87F47861}.Release|x64.Build.0 = Release|x64
+		{7D25849F-EA77-4028-A301-3D0C87F47861}.Release|x86.ActiveCfg = Release|x86
+		{7D25849F-EA77-4028-A301-3D0C87F47861}.Release|x86.Build.0 = Release|x86
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|ARM.Build.0 = Debug|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|x64.Build.0 = Debug|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|x86.Build.0 = Debug|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|ARM.ActiveCfg = Release|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|ARM.Build.0 = Release|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|x64.ActiveCfg = Release|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|x64.Build.0 = Release|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|x86.ActiveCfg = Release|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

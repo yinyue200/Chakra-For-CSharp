@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ChakraForCSharp</id>
+    <version>1.0.3</version>
+    <title>ChakraForCSharp</title>
+    <authors>yinyue200</authors>
+    <owners></owners>
+    <description>
+      A long description of the package. This shows up in the right pane of the Add Package Dialog as well as in the Package Manager Console when listing packages using the Get-Package command.
+    </description>
+    <copyright>Copyright yinyue200.com 2016</copyright>
+  </metadata>
+  <files>
+    <file src="..\Chakra For CSharp\bin\Release\" target="lib\uap10.0" />
+    <file src="content\" target="content" />
+  </files>
+</package>
