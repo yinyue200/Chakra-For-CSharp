@@ -20,6 +20,10 @@ namespace ChakraHost.Hosting
                 }
                 return currect;
             }
+            set
+            {
+                currect = value;
+            }
         }
         [ThreadStatic]
         public static ChakraJavaScriptHost currect = null;
@@ -62,7 +66,27 @@ namespace ChakraHost.Hosting
         {
             Native.ThrowIfError(Native.JsSetCurrentContext(context));
         }
+        public JavaScriptValue RunScriptForJavaScriptValue(string script)
+        {
+            JavaScriptValue result;
+            if (Native.JsRunScript(script, currentSourceContext++, string.Empty, out result) != JavaScriptErrorCode.NoError)
+            {
+                throw new Exception(GetErrorMessage());
+            }
 
+            // Execute promise tasks stored in taskQueue 
+            while (taskQueue.Count != 0)
+            {
+                JavaScriptValue task = taskQueue.Dequeue();
+                JavaScriptValue promiseResult;
+                JavaScriptValue global;
+                Native.JsGetGlobalObject(out global);
+                JavaScriptValue[] args = new JavaScriptValue[1] { global };
+                Native.JsCallFunction(task, args, 1, out promiseResult);
+            }
+
+            return result;
+        }
         public string RunScript(string script)
         {
             IntPtr returnValue;
